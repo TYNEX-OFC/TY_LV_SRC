@@ -1,19 +1,7 @@
-# Protected by TRIPLER VIP ENCODER v1.0
-# Owner: @YaminOnFire07
-# Web: tynex_of.ff90.top
-import marshal, zlib, base64
-
-guardfcf268 = lambda _x: ''.join([chr(ord(_c) ^ 0) for _c in str(_x)])
-if guardfcf268('tripler_sec') != 'tripler_sec':
-    exit()
-
-key26fa4c = [120, 168, 49, 219, 185, 143, 76, 39]
-b8535cf25 = b'b4vgK001-`7x;zD7j&)QrdJ&g@?0KsK7PANTm!xB6*}hCSu3qu>`&2JDDg@sKl1H0WeKuK`v^kO@_bU*#F1mx5eoPS3ujhOFEF=C'
-
-marshf58e28 = marshal.loads(base64.b85decode(b8535cf25))
-dec9c8e4e = bytearray()
-for _i, _b in enumerate(marshf58e28):
-    dec9c8e4e.append(_b ^ key26fa4c[_i % len(key26fa4c)])
-
-zlib4a6843 = zlib.decompress(bytes(dec9c8e4e)).decode('utf-8')
-exec(compile(zlib4a6843, '<protected_by_owner>', 'exec'))
+httpx
+google-play-scraper
+pycryptodome
+protobuf-decoder
+protobuf
+requests
+aiohttp
